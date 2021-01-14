@@ -1,7 +1,7 @@
 {
-  "name": "test",
+  "name": "react-tailwind-template",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@craco/craco": "^6.0.0",
     "@tailwindcss/postcss7-compat": "^2.0.2",
@@ -9,6 +9,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "autoprefixer": "^9.8.6",
+    "np": "^7.2.0",
     "postcss": "^7.0.35",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -19,7 +20,7 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test",
+    "test": "echo \"No test specified\"",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
